@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Views">
+      <UniqueIdentifier>{6451a42f-2246-46e0-b06f-e27eb33b488e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\GetRequest">
+      <UniqueIdentifier>{f58cea0b-960c-49cf-b0c4-c148571ac74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{fa0a9f5b-6201-4e85-b16a-8927c3a4cfee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{255e7a7f-1d21-40f2-88c9-a791e954a00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Requests">
+      <UniqueIdentifier>{590fe9a1-ad46-465a-81a6-76427b0c3f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Responses">
+      <UniqueIdentifier>{af61eee3-3b41-42a3-b599-9a8583673be6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers\PlayerDiedController">
+      <UniqueIdentifier>{1fb62ff1-65b3-43d9-be52-bf557e8e7e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Requests\PlayerDiedRequests">
+      <UniqueIdentifier>{276c0379-b25e-4a63-8377-53202673449d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Responses\PlayerDiedResponses">
+      <UniqueIdentifier>{ab6ebf21-75a8-4745-aec9-4a527518d9f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetRequestView.cpp">
+      <Filter>Source Files\Views\GetRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDiedResponse.cpp">
+      <Filter>Source Files\Views\Responses\PlayerDiedResponses</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDiedRequest.cpp">
+      <Filter>Source Files\Views\Requests\PlayerDiedRequests</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDiedController.cpp">
+      <Filter>Source Files\Controllers\PlayerDiedController</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GetRequestView.h">
+      <Filter>Source Files\Views\GetRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDiedModel.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDiedResponse.h">
+      <Filter>Source Files\Views\Responses\PlayerDiedResponses</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDiedRequest.h">
+      <Filter>Source Files\Views\Requests\PlayerDiedRequests</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDiedController.h">
+      <Filter>Source Files\Controllers\PlayerDiedController</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
