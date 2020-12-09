@@ -23,7 +23,6 @@ using namespace std;
 
 int main()
 {
-	srand(time(NULL));
 
 	http_listener listener(L"http://localhost:8989/PartnerProject/");
 
