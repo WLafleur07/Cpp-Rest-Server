@@ -34,11 +34,59 @@
     <Filter Include="Source Files\Controllers\PlayerDiedController">
       <UniqueIdentifier>{1fb62ff1-65b3-43d9-be52-bf557e8e7e23}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Views\Requests\PlayerDiedRequests">
+    <Filter Include="Source Files\Views\PostRequest">
+      <UniqueIdentifier>{1bc98f44-4c61-4604-b6cb-ce2bf28c6ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Requests\RobotsKilledRequest">
+      <UniqueIdentifier>{b5917de1-9e62-42f4-95a6-4db5632f8e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Responses\RobotsKilledResponse">
+      <UniqueIdentifier>{d4a5812c-0825-41f3-a279-b3bb1d206d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers\RobotsKilledController">
+      <UniqueIdentifier>{3569751c-7dc4-4f43-bcc1-0475e4004385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Responses\ActiveWeaponResponse">
+      <UniqueIdentifier>{055feeef-893d-43e3-9650-a93367140d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Responses\PlayerDiedResponse">
+      <UniqueIdentifier>{ab6ebf21-75a8-4745-aec9-4a527518d9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Requests\ActiveWeaponRequest">
+      <UniqueIdentifier>{0536e9df-2a5f-4f3f-bb90-8bd45186a4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Requests\PlayerDiedRequest">
       <UniqueIdentifier>{276c0379-b25e-4a63-8377-53202673449d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Views\Responses\PlayerDiedResponses">
-      <UniqueIdentifier>{ab6ebf21-75a8-4745-aec9-4a527518d9f1}</UniqueIdentifier>
+    <Filter Include="Source Files\Controllers\ActiveWeaponController">
+      <UniqueIdentifier>{ba0b7845-4556-4f8e-b315-100e2fb7452f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers\PickupTypeController">
+      <UniqueIdentifier>{8e2d05df-95f7-4ec2-a612-f7c803156b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Requests\PickupTypeRequest">
+      <UniqueIdentifier>{e4525eff-8d6c-4c71-9213-2dec277cc4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Responses\PickupTypeResponse">
+      <UniqueIdentifier>{ce4b69ea-6961-4f3e-8660-b9ef39ab368e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Requests\HealthRequest">
+      <UniqueIdentifier>{1e6e3f48-fdd0-475e-a1be-907f305f5eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers\HealthController">
+      <UniqueIdentifier>{f820c026-b6c5-4959-b804-1da32696ff7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Responses\HealthResponse">
+      <UniqueIdentifier>{f7237a16-388e-4ee3-85e9-c8be934c71bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers\ArmorController">
+      <UniqueIdentifier>{8b167ed4-a34b-43df-890e-f3373e346c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Requests\ArmorRequest">
+      <UniqueIdentifier>{cf01ce8f-e73c-4806-b1ce-a551f1dbf631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views\Responses\ArmorResponse">
+      <UniqueIdentifier>{cd559bcf-3f3e-4434-88f9-b3f2db417c87}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -49,13 +97,61 @@
       <Filter>Source Files\Views\GetRequest</Filter>
     </ClCompile>
     <ClCompile Include="PlayerDiedResponse.cpp">
-      <Filter>Source Files\Views\Responses\PlayerDiedResponses</Filter>
+      <Filter>Source Files\Views\Responses\PlayerDiedResponse</Filter>
     </ClCompile>
     <ClCompile Include="PlayerDiedRequest.cpp">
-      <Filter>Source Files\Views\Requests\PlayerDiedRequests</Filter>
+      <Filter>Source Files\Views\Requests\PlayerDiedRequest</Filter>
     </ClCompile>
     <ClCompile Include="PlayerDiedController.cpp">
       <Filter>Source Files\Controllers\PlayerDiedController</Filter>
+    </ClCompile>
+    <ClCompile Include="PostRequestView.cpp">
+      <Filter>Source Files\Views\PostRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotsKilledRequest.cpp">
+      <Filter>Source Files\Views\Requests\RobotsKilledRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotsKilledResponse.cpp">
+      <Filter>Source Files\Views\Responses\RobotsKilledResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotsKilledController.cpp">
+      <Filter>Source Files\Controllers\RobotsKilledController</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveWeaponResponse.cpp">
+      <Filter>Source Files\Views\Responses\ActiveWeaponResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveWeaponRequest.cpp">
+      <Filter>Source Files\Views\Requests\ActiveWeaponRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="ActiveWeaponController.cpp">
+      <Filter>Source Files\Controllers\ActiveWeaponController</Filter>
+    </ClCompile>
+    <ClCompile Include="PickupTypeController.cpp">
+      <Filter>Source Files\Controllers\PickupTypeController</Filter>
+    </ClCompile>
+    <ClCompile Include="PickupTypeRequest.cpp">
+      <Filter>Source Files\Views\Requests\PickupTypeRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="PickupTypeResponse.cpp">
+      <Filter>Source Files\Views\Responses\PickupTypeResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthController.cpp">
+      <Filter>Source Files\Controllers\HealthController</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthRequest.cpp">
+      <Filter>Source Files\Views\Requests\HealthRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthResponse.cpp">
+      <Filter>Source Files\Views\Responses\HealthResponse</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmorController.cpp">
+      <Filter>Source Files\Controllers\ArmorController</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmorRequest.cpp">
+      <Filter>Source Files\Views\Requests\ArmorRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmorResponse.cpp">
+      <Filter>Source Files\Views\Responses\ArmorResponse</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -66,13 +162,76 @@
       <Filter>Source Files\Models</Filter>
     </ClInclude>
     <ClInclude Include="PlayerDiedResponse.h">
-      <Filter>Source Files\Views\Responses\PlayerDiedResponses</Filter>
+      <Filter>Source Files\Views\Responses\PlayerDiedResponse</Filter>
     </ClInclude>
     <ClInclude Include="PlayerDiedRequest.h">
-      <Filter>Source Files\Views\Requests\PlayerDiedRequests</Filter>
+      <Filter>Source Files\Views\Requests\PlayerDiedRequest</Filter>
     </ClInclude>
     <ClInclude Include="PlayerDiedController.h">
       <Filter>Source Files\Controllers\PlayerDiedController</Filter>
+    </ClInclude>
+    <ClInclude Include="PostRequestView.h">
+      <Filter>Source Files\Views\PostRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotsKilledRequest.h">
+      <Filter>Source Files\Views\Requests\RobotsKilledRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotsKilledModel.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotsKilledResponse.h">
+      <Filter>Source Files\Views\Responses\RobotsKilledResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotsKilledController.h">
+      <Filter>Source Files\Controllers\RobotsKilledController</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveWeaponResponse.h">
+      <Filter>Source Files\Views\Responses\ActiveWeaponResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveWeaponRequest.h">
+      <Filter>Source Files\Views\Requests\ActiveWeaponRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveWeaponController.h">
+      <Filter>Source Files\Controllers\ActiveWeaponController</Filter>
+    </ClInclude>
+    <ClInclude Include="ActiveWeaponModel.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PickupTypeController.h">
+      <Filter>Source Files\Controllers\PickupTypeController</Filter>
+    </ClInclude>
+    <ClInclude Include="PickupTypeRequest.h">
+      <Filter>Source Files\Views\Requests\PickupTypeRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="PickupTypeResponse.h">
+      <Filter>Source Files\Views\Responses\PickupTypeResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="PickupTypeModel.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthController.h">
+      <Filter>Source Files\Controllers\HealthController</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthModel.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthRequest.h">
+      <Filter>Source Files\Views\Requests\HealthRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthResponse.h">
+      <Filter>Source Files\Views\Responses\HealthResponse</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorModel.h">
+      <Filter>Source Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorController.h">
+      <Filter>Source Files\Controllers\ArmorController</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorRequest.h">
+      <Filter>Source Files\Views\Requests\ArmorRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorResponse.h">
+      <Filter>Source Files\Views\Responses\ArmorResponse</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

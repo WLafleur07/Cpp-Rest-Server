@@ -139,18 +139,55 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ActiveWeaponController.cpp" />
+    <ClCompile Include="ActiveWeaponRequest.cpp" />
+    <ClCompile Include="ActiveWeaponResponse.cpp" />
+    <ClCompile Include="ArmorController.cpp" />
+    <ClCompile Include="ArmorRequest.cpp" />
+    <ClCompile Include="ArmorResponse.cpp" />
     <ClCompile Include="GetRequestView.cpp" />
+    <ClCompile Include="HealthController.cpp" />
+    <ClCompile Include="HealthRequest.cpp" />
+    <ClCompile Include="HealthResponse.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PickupTypeController.cpp" />
+    <ClCompile Include="PickupTypeRequest.cpp" />
+    <ClCompile Include="PickupTypeResponse.cpp" />
     <ClCompile Include="PlayerDiedController.cpp" />
     <ClCompile Include="PlayerDiedRequest.cpp" />
     <ClCompile Include="PlayerDiedResponse.cpp" />
+    <ClCompile Include="PostRequestView.cpp" />
+    <ClCompile Include="RobotsKilledController.cpp" />
+    <ClCompile Include="RobotsKilledRequest.cpp" />
+    <ClCompile Include="RobotsKilledResponse.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ActiveWeaponController.h" />
+    <ClInclude Include="ActiveWeaponModel.h" />
+    <ClInclude Include="ActiveWeaponRequest.h" />
+    <ClInclude Include="ActiveWeaponResponse.h" />
+    <ClInclude Include="ArmorController.h" />
+    <ClInclude Include="ArmorModel.h" />
+    <ClInclude Include="ArmorRequest.h" />
+    <ClInclude Include="ArmorResponse.h" />
     <ClInclude Include="GetRequestView.h" />
+    <ClInclude Include="HealthController.h" />
+    <ClInclude Include="HealthModel.h" />
+    <ClInclude Include="HealthRequest.h" />
+    <ClInclude Include="HealthResponse.h" />
+    <ClInclude Include="PickupTypeController.h" />
+    <ClInclude Include="PickupTypeModel.h" />
+    <ClInclude Include="PickupTypeRequest.h" />
+    <ClInclude Include="PickupTypeResponse.h" />
     <ClInclude Include="PlayerDiedController.h" />
     <ClInclude Include="PlayerDiedModel.h" />
     <ClInclude Include="PlayerDiedRequest.h" />
     <ClInclude Include="PlayerDiedResponse.h" />
+    <ClInclude Include="PostRequestView.h" />
+    <ClInclude Include="RobotsKilledController.h" />
+    <ClInclude Include="RobotsKilledModel.h" />
+    <ClInclude Include="RobotsKilledRequest.h" />
+    <ClInclude Include="RobotsKilledResponse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

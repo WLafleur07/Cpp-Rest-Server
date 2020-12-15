@@ -1,1 +1,2 @@
 E:\GAME 311 - Network Programming\Partner Project\HTTP Server\HTTP Server\Debug\HTTP Server.vcxproj.CopyComplete
+E:\GAME 311 - Network Programming\CppRest Server\HTTP Server\Debug\HTTP Server.vcxproj.CopyComplete

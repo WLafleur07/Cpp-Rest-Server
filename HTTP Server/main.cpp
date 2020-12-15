@@ -12,6 +12,7 @@
 #include <map>
 
 #include "GetRequestView.h"
+#include "PostRequestView.h"
 //#include "PostRequestView.h"
 
 #pragma comment(lib, "cpprest_2_10")
@@ -24,10 +25,10 @@ using namespace std;
 int main()
 {
 
-	http_listener listener(L"http://localhost:8989/PartnerProject/");
+	http_listener listener(L"http://10.0.0.148:80/PartnerProject/");
 
 	listener.support(methods::GET, handle_get);
-	//listener.support(methods::POST, handle_post);
+	listener.support(methods::POST, handle_post);
 
 	try
 	{
